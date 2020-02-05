@@ -42,3 +42,16 @@ To use the [Swift Mailer module](https://www.drupal.org/project/swiftmailer "Swi
 Configuration for this module is largely the same as above.
 
 ![]({{root_url}}/images/drupal_3.png "SMTP Module Configuration")
+
+## 	Using the PHPMailer SMTP Module
+
+Basic configuration is the same as the SMTP Authentication Support module.
+
+1.  Install the [PHPMailer SMTP module](https://www.drupal.org/project/phpmailer_smtp "PHPMailer SMTP Module")
+2.  Configure your credentials at `/admin/config/system/phpmailer-smtp`
+
+-   **SMTP Server** - smtp.sendgrid.net
+-   **SMTP Port** - 587
+-   **Use secure protocol** - TLS
+-   **Username** - SendGrid Username
+-   **Password** - SendGrid Password
